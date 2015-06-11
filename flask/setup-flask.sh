@@ -12,8 +12,8 @@ else
   mkdir "$1/app"
   mkdir "$1/app/templates"
   mkdir "$1/app/static"
-  mkdir "$1/app/css"
-  mkdir "$1/app/js"
+  mkdir "$1/app/static/css"
+  mkdir "$1/app/static/js"
 
   # Make files
   touch "$1/run.py"
